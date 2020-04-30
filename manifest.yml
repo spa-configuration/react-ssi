@@ -1,0 +1,8 @@
+applications:
+- name: spa-config-ssi
+  buildpacks:
+  - staticfile_buildpack
+  disk_quota: 16M
+  memory: 32M
+  path: build/
+  stack: cflinuxfs3
