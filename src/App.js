@@ -1,4 +1,6 @@
 import React from 'react';
+
+import configuration from "./configuration";
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,6 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>{configuration.message}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
