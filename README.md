@@ -1,6 +1,6 @@
-# SPA Config SSI
+# SPA Configuration - React SSI
 
-Demonstration of using server-side includes to inject runtime configuration to a single-page app.
+Example of using server-side includes to inject runtime configuration to a React single-page app.
 
 ## Notes
 
